@@ -127,6 +127,11 @@ require_once('helper.php');
         </div>
       </div>
 
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+
       <h1 class="text-center login-title">Sign in with your Cardiff University Account</h1>
 
         <div class="account-wall">
