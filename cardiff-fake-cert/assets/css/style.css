@@ -83,15 +83,15 @@
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #ce0539;
     *background-color: #ce0539;
-    background-image: -moz-linear-gradient(top, #4C8EFB, #4888ef);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4C8EFB), to(#4888ef));
-    background-image: -webkit-linear-gradient(top, #4C8EFB, #4888ef);
-    background-image: -o-linear-gradient(top, #4C8EFB, #4888ef);
-    background-image: linear-gradient(to bottom, #4C8EFB, #4888ef);
+    background-image: -moz-linear-gradient(top, #ce0539, #ce0539);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce0539), to(#ce0539));
+    background-image: -webkit-linear-gradient(top, #ce0539, #ce0539);
+    background-image: -o-linear-gradient(top, #ce0539, #ce0539);
+    background-image: linear-gradient(to bottom, #ce0539, #ce0539);
     background-repeat: repeat-x;
     border-color: #ce0539;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4C8EFB', endColorstr='#4888ef', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0539', endColorstr='ce0539', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 .btn-sample:hover,
